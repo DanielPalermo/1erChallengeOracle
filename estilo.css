@@ -1,0 +1,129 @@
+
+body {
+    background-color: #F3F5FC;
+    font-family: sans-serif;
+}
+main {
+    padding: 40px;
+
+}
+.img-alura{
+    margin: 40px 0  0 40px;
+}
+
+.section {
+    width:100%;
+    display:flex;
+    flex-direction: row;
+}
+
+.section-group{
+    width: 70%;
+    background:  #F3F5FC;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-aside{
+    width: 30%;
+    background: #fff;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+    border-radius:10%;
+}
+
+.section-aside h3 {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+.section-aside p {
+    font-size: 16px;
+    padding: 0 20px;
+    color: #3e3e3e;
+}
+textarea{
+    background-color: #F3F5FC;
+    border:none;
+    resize: none !important;
+    margin: auto !important;
+    width: 80%;
+    height: 50%;
+    font-size: 30px;
+    text-align: center;
+}
+.button-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+textarea::placeholder{
+    background-color: #F3F5FC;
+    color:#072B61
+    
+}
+
+textarea:focus{
+    background-color: #F3F5FC;
+
+}
+
+.section-btn{
+    width: 250px;
+    height: 50px;
+    background-color: #072B61;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #072B61;
+
+}
+.section-btn:nth-child(2){
+    color:#072B61;
+    background-color: #D8DFE8;
+}
+.warning_p{
+    display:inline;
+    margin-bottom: 100px;
+    padding:0;
+}
+
+.father_message{
+    display:flex;
+    justify-content:end;
+    align-items: center;
+    background-color: white;
+    height: 444px;
+    width: 400px; 
+    padding-bottom: 444px;
+}
+
+.not_message_found{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+#textarea2{
+    border-bottom: 15px solid white;
+    border-radius: 10px;;
+}
+ 
+/* .section{}
+.section-group{}
+.section-btn{}
+.section-aside{}
+.section-picture{}
+.section-title{}
+.section-paragraph{} */
